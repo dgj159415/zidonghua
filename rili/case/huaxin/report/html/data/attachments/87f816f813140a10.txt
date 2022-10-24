@@ -1,0 +1,2 @@
+INFO     log:set_app.py:103 判断是否记住密码用例通过，无异常！
+INFO     log:set_app.py:60 APP关闭！

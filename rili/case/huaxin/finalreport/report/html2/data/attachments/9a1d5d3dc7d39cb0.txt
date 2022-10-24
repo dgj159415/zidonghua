@@ -1,0 +1,1 @@
+INFO     log:set_app.py:52 APP启动并允许所有权限！

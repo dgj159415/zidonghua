@@ -1,0 +1,13 @@
+.side-nav__brand {
+  background: url('7q71.svg') no-repeat left center !important;
+  margin-left: 10px;
+height: 40px;
+background-size: contain !important;
+}
+.side-nav__brand span{
+display: none;
+}
+.side-nav__brand:after{
+content: “信华信”; 
+margin-left: 10px;
+

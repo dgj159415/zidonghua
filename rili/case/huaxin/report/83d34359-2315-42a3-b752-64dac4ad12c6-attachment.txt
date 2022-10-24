@@ -1,0 +1,2 @@
+[32mINFO    [0m log:set_app.py:53 APP启动并允许所有权限！
+[32mINFO    [0m log:set_app.py:76 使用密码登录成功，用例无异常！

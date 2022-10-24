@@ -1,0 +1,2 @@
+INFO     log:set_app.py:274 输入语音:  关闭空调获得响应为：请指定具体的具体的空调名称（中文）
+INFO     log:set_app.py:59 APP关闭！
