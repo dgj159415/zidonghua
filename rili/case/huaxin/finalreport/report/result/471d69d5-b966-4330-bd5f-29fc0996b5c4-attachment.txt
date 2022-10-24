@@ -1,3 +1,0 @@
-INFO     log:set_app.py:52 APP启动并允许所有权限！
-INFO     log:set_app.py:76 使用密码登录成功，用例无异常！
-INFO     log:set_app.py:268 输入语音:  打开所有空调获得响应为：好的，正在为您打开所有空调

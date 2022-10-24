@@ -2,7 +2,7 @@
 import allure
 import pytest
 from time import sleep
-from case.huaxin.york.set_app import SetApp
+from rili.case.huaxin.york.set_app import SetApp
 @allure.epic("约克智慧家")
 @allure.feature("冒烟测试")
 class TestSmoke:

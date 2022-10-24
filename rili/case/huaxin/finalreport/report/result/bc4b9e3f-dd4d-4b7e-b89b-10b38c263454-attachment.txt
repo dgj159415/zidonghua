@@ -1,2 +1,0 @@
-INFO     log:set_app.py:325 头像更换成功，用例无异常！
-INFO     log:set_app.py:59 APP关闭！

@@ -1,2 +1,0 @@
-INFO     log:set_app.py:147 使用验证码登录成功，无异常！
-INFO     log:set_app.py:59 APP关闭！

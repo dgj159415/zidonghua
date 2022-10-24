@@ -1,2 +1,0 @@
-[32mINFO    [0m log:set_app.py:103 判断是否记住密码用例通过，无异常！
-[32mINFO    [0m log:set_app.py:60 APP关闭！

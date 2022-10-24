@@ -1,1 +1,0 @@
-INFO     log:set_app.py:96 退出登录成功，用例无异常！

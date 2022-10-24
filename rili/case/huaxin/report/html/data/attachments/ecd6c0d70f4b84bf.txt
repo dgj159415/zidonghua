@@ -1,1 +1,0 @@
-INFO     log:set_app.py:557 退出登录成功，用例无异常！

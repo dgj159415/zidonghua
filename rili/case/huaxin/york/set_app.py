@@ -7,10 +7,10 @@ import pygame
 from appium.webdriver.common.touch_action import TouchAction
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
-from case.public import logger
+from rili.case.public import logger
 from appium import webdriver
 from selenium.webdriver.common.by import By
-from case.public.img_judg  import execution_judgment
+from rili.case.public.img_judg  import execution_judgment
 class SetApp:
     # 初始化方法
     def __init__(self):
