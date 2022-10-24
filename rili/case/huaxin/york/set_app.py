@@ -157,6 +157,7 @@ class SetApp:
         sleep(2)
         #  WebDriverWait(self.driver, 5, 1).until(EC.presence_of_element_located((By.XPATH, "//*[@text='家庭管理']"))).click()
         WebDriverWait(self.driver, 3, 1).until(EC.presence_of_element_located((By.XPATH, "//*[@text='幸福']"))).click()
+        sleep(1)
         WebDriverWait(self.driver, 3, 1).until(EC.presence_of_element_located((By.XPATH, "//*[@text='家庭地址']"))).click()
         sleep(1)
         WebDriverWait(self.driver, 3, 1).until(EC.presence_of_all_elements_located((By.CLASS_NAME, "android.view.View")))[8].click()
@@ -170,13 +171,13 @@ class SetApp:
             allure.attach(file, '前置截图'+self.now_time, allure.attachment_type.PNG)
         WebDriverWait(self.driver, 3, 1).until(EC.presence_of_element_located((By.XPATH, "//*[@text='省份']"))).click()
         sleep(0.5)
-        self.driver.tap([(500, ((random.randint(0, 11)*150)+250))], 200)
+        self.driver.tap([(500, ((random.randint(3, 11)*150)+250))], 200)
         WebDriverWait(self.driver, 3, 1).until(EC.presence_of_element_located((By.XPATH, "//*[@text='完成']"))).click()
         sleep(0.5)
-        self.driver.tap([(500, ((random.randint(0, 9)*150)+250))], 200)
+        self.driver.tap([(500, ((random.randint(0, 8)*150)+250))], 200)
         WebDriverWait(self.driver, 3, 1).until(EC.presence_of_element_located((By.XPATH, "//*[@text='完成']"))).click()
         sleep(0.5)
-        self.driver.tap([(500, ((random.randint(0, 5) * 150) + 250))], 200)
+        self.driver.tap([(500, ((random.randint(0, 3) * 150) + 250))], 200)
         WebDriverWait(self.driver, 3, 1).until(EC.presence_of_element_located((By.XPATH, "//*[@text='完成']"))).click()
         sleep(3)
         self.now_time = time.strftime('%Y-%m-%d-%H_%M_%S', time.localtime(time.time()))
@@ -187,8 +188,9 @@ class SetApp:
         self.driver.back()
         self.driver.back()
         WebDriverWait(self.driver, 5, 1).until(EC.presence_of_element_located((By.XPATH, "//*[@text='确定']"))).click()
-        sleep(1)
+        sleep(2)
         self.driver.back()
+        sleep(1)
         self.driver.back()
         return execution_judgment(image1, image2)
     # 地址变化
@@ -317,6 +319,7 @@ class SetApp:
         # pygame.mixer.music.set_volume(0.5)  # 设置音量大小0~1的浮点数
         # pygame.mixer.music.play()
         TouchAction(driver).press(x=535, y=1700).wait(3000).move_to(x=550, y=1700).release().perform()
+        sleep(2)
         try:
             text = self.driver.find_elements(by=By.CLASS_NAME, value="android.view.View")[0].text
         except:
@@ -383,7 +386,7 @@ class SetApp:
         #self.driver.tap([(1000, 100)], 200)
         sleep(2)
         self.driver.find_elements(by=By.CLASS_NAME, value='android.widget.ImageButton')[1].click()
-        sleep(2)
+        sleep(4)
         # 下面这一行需要删掉
        # self.driver.find_element(by=By.XPATH, value="//*[@text='确 定']").click()
        # sleep(1)
