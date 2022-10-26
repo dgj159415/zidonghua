@@ -2,7 +2,7 @@
 import allure
 import pytest
 from time import sleep
-from rili.case.huaxin.york.set_app import SetApp
+from case.huaxin.york.set_app import SetApp
 @allure.epic("日立智家")
 @allure.feature("冒烟测试")
 class TestSmoke:
@@ -81,7 +81,7 @@ class TestSmoke:
         approximation = self.setapp.map_selection(self.driver)
         assert approximation < 0.86
 
-    @pytest.mark.flaky(reruns=1, reruns_delay=2)
+    # @pytest.mark.flaky(reruns=1, reruns_delay=2)
     @allure.description("""  随机更换系统相册中的头像，第1次更换 """)
     @allure.severity(allure.severity_level.CRITICAL)
     @allure.story("更换头像1")

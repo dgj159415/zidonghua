@@ -2,7 +2,7 @@ import os
 
 import pytest
 
-from rili.case.huaxin.set_allure import doing
+
 
 if __name__ == "__main__":
      pytest.main(['-s'])

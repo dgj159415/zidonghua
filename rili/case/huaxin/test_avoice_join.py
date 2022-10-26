@@ -4,8 +4,8 @@ from time import sleep
 
 from selenium.webdriver.common.by import By
 
-from rili.case.huaxin.data.test_csv import data_csv
-from rili.case.huaxin.york.set_app import SetApp
+from case.huaxin.data.test_csv import data_csv
+from case.huaxin.york.set_app import SetApp
 @allure.epic("约克智慧家")
 @allure.feature("UI界面测试")
 class TestVoice_join:
